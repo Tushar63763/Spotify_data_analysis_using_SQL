@@ -154,7 +154,7 @@ select track,liveness
 from spotify
 where liveness > (select avg(liveness) from spotify);
 ```
-4. Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.
+3. Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.
 ```sql
 WITH cte
 AS
