@@ -72,8 +72,7 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 1. Retrieve the names of all tracks that have more than 1 billion streams.
    ```sql
    select track from spotify
-where stream > 1000000000;
--- Answer=385--
+   where stream > 1000000000;
   ```
 3. List all albums along with their respective artists.
 4. Get the total number of comments for tracks where `licensed = TRUE`.
